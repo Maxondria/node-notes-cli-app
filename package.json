@@ -1,16 +1,16 @@
 {
-  "name": "node-yargs",
+  "name": "notes-cli-app",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "nodemon": "^2.0.2"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "validator": "^10.8.0",
+    "yargs": "^12.0.2"
   }
 }

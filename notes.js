@@ -2,7 +2,9 @@ const fs = require("fs");
 const chalk = require("chalk");
 
 const getNotes = function() {
-  return "Your notes...";
+  console.log(chalk.green.inverse("Your Notes..."));
+  const notes = loadNotes();
+  notes.forEach(note => console.log("- ", note.title));
 };
 
 const addNote = (title, body) => {
